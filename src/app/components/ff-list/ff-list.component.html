@@ -1,0 +1,21 @@
+<div class="tabs is-centered animated bounceInDown">
+  <ul>
+    <li *ngFor="let tab of tabService.tabs;let i = index" [ngClass]="{'is-active' : i==0}">
+        <a>{{tab}}</a>
+    </li>
+  </ul>
+</div>
+
+<ul>
+    <li *ngFor="let ff of ffService.list" class="animated fadeInLeft">
+        <div class="card">
+            <div class="card-content">
+                <div class="content">
+                    <p class="title is-4">{{ff.nome}}</p>
+                    <p class="subtitle is-5">{{ff.ano}}</p>
+                    <p class="subtitle is-5">{{ff.plataform}}</p>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul>
