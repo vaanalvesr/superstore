@@ -1,6 +1,6 @@
 # Project Title
 
-Projeto front-end de uma loja virtual simples
+Projeto front-end de uma loja virtual simples. Usando a tecnologia PWA
 
 ## Deploy
 
